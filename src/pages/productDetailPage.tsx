@@ -2,7 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { useProductDetail } from '../hooks/useProductDetail';
 import { ErrorMessage } from '../components/ErrorMessage';
-import { ArrowLeft, Star, Package, Truck, Shield, Heart, ShoppingCart, CheckCircle, Zap, Award, RotateCcw } from 'lucide-react';
+import { ArrowLeft, Star, Package, Shield, Heart, ShoppingCart, CheckCircle, Zap, Award, RotateCcw } from 'lucide-react';
 import { LoadingSpinner } from '../components/LoaderSpinner';
 
 export const ProductDetailPage = () => {
